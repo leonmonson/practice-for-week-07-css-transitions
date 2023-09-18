@@ -7,7 +7,9 @@
     /* Your code here */
 }
 
-/* Create rocket hover animation here
+.rocket_svg: hover {
+    transform: rotate(250deg);
+    transition-duration: 3s;
 
 
 /* ===== Problem 2 ===== */
@@ -19,7 +21,9 @@
     /* Your code here */
 }
 
-/* Create astronaut hover animation here
+astronaunt_svg {
+    translate: 100deg;
+    transition-duration: 3s;
 
 /* ======= BONUS ======= */
 
@@ -30,6 +34,8 @@
     /* Your animation here
 }
 
-@keyframes spin {
-    /* Set up your keyframe animation here
+.earth_svg {
+    animation-name: spin
+    animation-duration: 2s;
+    animation-iteration-count: infinate;
 }
